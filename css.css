@@ -1,0 +1,60 @@
+.house{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.house_roof{
+	display: flex;
+	height: 0; 
+	width: 295px;
+	border-bottom: 190px solid black;
+	border-left: 235px solid transparent;
+	border-right: 235px solid transparent;
+	margin-top: -100px;
+	margin-left: 333px;
+}
+.house-wall{
+	display: flex;
+	height: 410px;
+	width: 600px;
+	margin-left: 319px;
+	margin-top: 0px;
+	background: #ff6f00;
+	border: 2px solid black;
+	justify-content: space-around;
+}
+
+.house-window1{
+	display: flex;
+	height: 135px;
+	width: 135px;
+	margin-left: 54px;
+	margin-top: -314px;
+	background: blue;
+	border: 2px solid black;
+	justify-content: center;
+}
+
+.house_door{
+	display: flex;
+	height: 250px;
+	width: 130px;
+	margin-left: 510px;
+	margin-top: -85px;
+	background: grey;
+	border: 2px solid black;
+	align-self: center;
+}
+
+.door_handle{
+	display: flex;
+	width: 15px; 
+	height: 15px;
+	background: black;
+	position: relative;
+	margin-left: 600px;
+	margin-top: -105px;
+	background-color: black;	
+}
